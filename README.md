@@ -68,6 +68,16 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
       <li>No encryption is used for storing passwords (can be improved with hashing).</li>
     </ul>
   </li>
+  <li><h2>Error Handling</h2>
+    <ul>
+      <li>Error messages are minimal and may not be user-friendly. This can be enhanced further.</li>
+    </ul>
+  </li>
+  <li><h2>Token Expiry</h2>
+    <ul>
+      <li>The current implementation does not include token expiration for simplicity.</li>
+    </ul>
+  </li>
 </ol>
 
 
