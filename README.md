@@ -6,7 +6,7 @@ SQLite3 installed for the database.
 <br>
 # Steps to Run
 # 1. Clone the repository
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/Kasiru69/library-management-system/tree/master
 <br>
 cd library-management-system
 <br>
