@@ -26,5 +26,13 @@ python main.py
 # 6. Test the Api
 Use Postman, cURL, or any HTTP client to test the API endpoints.
 
+# Design Choices
+1. Modular Architecture
+The code is split into modules:
+
+Member.py: Handles user registration and login.
+Borrow_book.py: Manages book borrowing and returning.
+Search_book.py: Implements book search functionality.
+
 
 
