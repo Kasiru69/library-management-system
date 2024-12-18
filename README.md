@@ -54,6 +54,7 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
 <pre>
   The search endpoint allows users to search for books by any detail (e.g., title, author).
 </pre>
+<br>
 # Assumptions
 <pre>
   1. Each user has a unique name for login.
