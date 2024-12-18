@@ -55,7 +55,7 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
   The search endpoint allows users to search for books by any detail (e.g., title, author).
 </pre>
 <br>
-# Assumptions
+<h1>Assumptions</h1>
 <pre>
   1. Each user has a unique name for login.
   2. Users can borrow multiple books at a time but cannot borrow the same book twice.
