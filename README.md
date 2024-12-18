@@ -62,7 +62,7 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
 </pre>
 <h1>Limitations</h1>
 <ol>
-  <li><h2>Database<h2>
+  <li><h2>Database</h2>
     <ul>
       <li>SQLite3 is used, which may not scale well for larger systems or concurrent users.</li>
       <li>No encryption is used for storing passwords (can be improved with hashing).</li>
