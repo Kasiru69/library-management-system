@@ -54,13 +54,21 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
 <pre>
   The search endpoint allows users to search for books by any detail (e.g., title, author).
 </pre>
-<br>
 <h1>Assumptions</h1>
 <pre>
   1. Each user has a unique name for login.
   2. Users can borrow multiple books at a time but cannot borrow the same book twice.
   3. Token-based authentication ensures secure access to certain endpoints.
 </pre>
+<h1>Limitations</h1>
+<ol>
+  <li><h2>Database<h2>
+    <ul>
+      <li>SQLite3 is used, which may not scale well for larger systems or concurrent users.</li>
+      <li>No encryption is used for storing passwords (can be improved with hashing).</li>
+    </ul>
+  </li>
+</ol>
 
 
 
