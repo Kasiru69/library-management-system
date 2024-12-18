@@ -35,6 +35,25 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
   Borrow_book.py: Manages book borrowing and returning. 
   Search_book.py: Implements book search functionality. 
 </pre>
+2. Authentication
+<br>
+<pre>
+  JSON Web Tokens (JWT) are used for user authentication to ensure secure access to API endpoints.
+</pre>
+3. Database
+<br>
+<pre>
+  SQLite3 is used as the database for simplicity and portability.
+  Tables:
+  Members: Stores user information.
+  Books: Stores details about available books.
+  Borrowed_Books: Tracks borrowed and returned books.
+</pre>
+4. Search Functionality
+<br>
+<pre>
+  The search endpoint allows users to search for books by any detail (e.g., title, author).
+</pre>
 
 
 
