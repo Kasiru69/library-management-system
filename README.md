@@ -28,6 +28,7 @@ Use Postman, cURL, or any HTTP client to test the API endpoints.
 
 # Design Choices
 1. Modular Architecture
+<br>
 The code is split into modules:
 <br>
 Member.py: Handles user registration and login. <br>
